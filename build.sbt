@@ -12,7 +12,7 @@ crossPaths := false
 // This forbids including Scala related libraries into the dependency
 autoScalaLibrary := false
 
-// Main Jave class for "sbt run"
+// Main Java class for "sbt run"
 // mainClass in (Compile, run) := Some( "somepackage.MainClassName")
 
 libraryDependencies ++= Seq( 
