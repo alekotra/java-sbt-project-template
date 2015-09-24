@@ -2,11 +2,10 @@ package com.alekotra;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
-import java.io.IOException;
+import java.io.FileNotFoundException;
 
 /**
  * Sample tests for Main class
@@ -34,14 +33,23 @@ public class MainTest {
     }
 
     @Test
-    public void testResourceReads() {
+    public void testResourceReads() throws Exception {
         Main main = new Main();
-        try {
-            String content = main.readResource("resource.txt");
-            assertEquals(content, "sample resource file");
-        } catch(IOException ioe) {
-            fail(ioe.getMessage());
-        }
+        String content = main.readResource("/resource.txt");
+        assertEquals(content, "sample resource file");
+    }
+
+    @Test(expected = FileNotFoundException.class)
+    public void testResourceReadsException() throws Exception {
+        Main main = new Main();
+        String content = main.readResource("do-not-exist");
+    }
+
+    @Test
+    public void testDataReads() throws Exception {
+        Main main = new Main();
+        String content = main.readData("data/data.txt");
+        assertEquals(content, "sample data file");
     }
 
 
