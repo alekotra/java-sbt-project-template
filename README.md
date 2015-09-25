@@ -1,4 +1,4 @@
-# java-sbt-project-template
+# java-sbt-project-template [![CircleCI][circleCiImg]][circleCiLink]
 ## Basic sbt-project template for pure Java projects with JUnit tests
 
 A simple project template to introduce Java developers to [sbt](http://www.scala-sbt.org/) projects.

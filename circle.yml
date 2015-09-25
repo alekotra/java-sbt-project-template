@@ -1,5 +1,12 @@
 ## Circle CI build customization
 
+general:
+
+  # build only master
+  branches:
+    ignore:
+      - readme-updates
+
 machine:
 
   # force Java8 compiler
