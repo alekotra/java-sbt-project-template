@@ -1,7 +1,8 @@
-# java-sbt-project-template
+# java-sbt-project-template  [![Circle CI](https://circleci.com/gh/alekotra/java-sbt-project-template/tree/master.svg?style=shield&circle-token=84434db0df955dbc64aecfd18bcf01a56c8664b6)](https://circleci.com/gh/alekotra/java-sbt-project-template/tree/master)
+
 ## Basic sbt-project template for pure Java projects with JUnit tests
 
-[![Circle CI](https://circleci.com/gh/alekotra/java-sbt-project-template/tree/master.svg?style=svg&circle-token=84434db0df955dbc64aecfd18bcf01a56c8664b6)](https://circleci.com/gh/alekotra/java-sbt-project-template/tree/master)
+[![Circle CI](https://circleci.com/gh/alekotra/java-sbt-project-template/tree/master.svg?style=shield&circle-token=84434db0df955dbc64aecfd18bcf01a56c8664b6)](https://circleci.com/gh/alekotra/java-sbt-project-template/tree/master)
 
 A simple project template to introduce Java developers to [sbt](http://www.scala-sbt.org/) projects.
 Default build.sbt, sample java classes and JUnit tests are included as examples.
