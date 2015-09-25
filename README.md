@@ -1,4 +1,4 @@
-# java-sbt-project-template  [![Circle CI](https://circleci.com/gh/alekotra/java-sbt-project-template/tree/master.svg?style=shield&circle-token=84434db0df955dbc64aecfd18bcf01a56c8664b6)](https://circleci.com/gh/alekotra/java-sbt-project-template/tree/master)
+# java-sbt-project-template
 
 ## Basic sbt-project template for pure Java projects with JUnit tests
 
