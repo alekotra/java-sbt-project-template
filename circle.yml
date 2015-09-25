@@ -5,3 +5,14 @@ machine:
   # force Java8 compiler
   java:
     version: oraclejdk8
+
+
+dependencies:
+
+  # enforce sbt 0.13.7 usage
+  pre:
+    - wget -q https://dl.bintray.com/sbt/debian/sbt-0.13.7.deb
+    - sudo dpkg -i sbt-0.13.7.deb
+  cache_directories:
+    - "~/.ivy2"
+    - "~/.sbt"
