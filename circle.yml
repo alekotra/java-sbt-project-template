@@ -1,0 +1,7 @@
+## Circle CI build customization
+
+machine:
+
+  # force Java8 compiler
+  java:
+    version: oraclejdk8
